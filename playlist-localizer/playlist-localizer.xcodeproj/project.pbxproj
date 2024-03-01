@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF8FFBCB2B91528600B4151E /* playlist_localizerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8FFBCA2B91528600B4151E /* playlist_localizerApp.swift */; };
+		AF8FFBCD2B91528600B4151E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8FFBCC2B91528600B4151E /* ContentView.swift */; };
+		AF8FFBCF2B91528900B4151E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF8FFBCE2B91528900B4151E /* Assets.xcassets */; };
+		AF8FFBD22B91528900B4151E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF8FFBD12B91528900B4151E /* Preview Assets.xcassets */; };
+		AF8FFBDD2B91528900B4151E /* playlist_localizerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8FFBDC2B91528900B4151E /* playlist_localizerTests.swift */; };
+		AF8FFBE72B91528900B4151E /* playlist_localizerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8FFBE62B91528900B4151E /* playlist_localizerUITests.swift */; };
+		AF8FFBE92B91528900B4151E /* playlist_localizerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8FFBE82B91528900B4151E /* playlist_localizerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AF8FFBD92B91528900B4151E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF8FFBBF2B91528600B4151E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF8FFBC62B91528600B4151E;
+			remoteInfo = "playlist-localizer";
+		};
+		AF8FFBE32B91528900B4151E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF8FFBBF2B91528600B4151E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF8FFBC62B91528600B4151E;
+			remoteInfo = "playlist-localizer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AF8FFBC72B91528600B4151E /* playlist-localizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "playlist-localizer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF8FFBCA2B91528600B4151E /* playlist_localizerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = playlist_localizerApp.swift; sourceTree = "<group>"; };
+		AF8FFBCC2B91528600B4151E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AF8FFBCE2B91528900B4151E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF8FFBD12B91528900B4151E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AF8FFBD32B91528900B4151E /* playlist_localizer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = playlist_localizer.entitlements; sourceTree = "<group>"; };
+		AF8FFBD82B91528900B4151E /* playlist-localizerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "playlist-localizerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF8FFBDC2B91528900B4151E /* playlist_localizerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = playlist_localizerTests.swift; sourceTree = "<group>"; };
+		AF8FFBE22B91528900B4151E /* playlist-localizerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "playlist-localizerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF8FFBE62B91528900B4151E /* playlist_localizerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = playlist_localizerUITests.swift; sourceTree = "<group>"; };
+		AF8FFBE82B91528900B4151E /* playlist_localizerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = playlist_localizerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF8FFBC42B91528600B4151E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF8FFBD52B91528900B4151E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF8FFBDF2B91528900B4151E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF8FFBBE2B91528600B4151E = {
+			isa = PBXGroup;
+			children = (
+				AF8FFBC92B91528600B4151E /* playlist-localizer */,
+				AF8FFBDB2B91528900B4151E /* playlist-localizerTests */,
+				AF8FFBE52B91528900B4151E /* playlist-localizerUITests */,
+				AF8FFBC82B91528600B4151E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF8FFBC82B91528600B4151E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF8FFBC72B91528600B4151E /* playlist-localizer.app */,
+				AF8FFBD82B91528900B4151E /* playlist-localizerTests.xctest */,
+				AF8FFBE22B91528900B4151E /* playlist-localizerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF8FFBC92B91528600B4151E /* playlist-localizer */ = {
+			isa = PBXGroup;
+			children = (
+				AF8FFBCA2B91528600B4151E /* playlist_localizerApp.swift */,
+				AF8FFBCC2B91528600B4151E /* ContentView.swift */,
+				AF8FFBCE2B91528900B4151E /* Assets.xcassets */,
+				AF8FFBD32B91528900B4151E /* playlist_localizer.entitlements */,
+				AF8FFBD02B91528900B4151E /* Preview Content */,
+			);
+			path = "playlist-localizer";
+			sourceTree = "<group>";
+		};
+		AF8FFBD02B91528900B4151E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AF8FFBD12B91528900B4151E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AF8FFBDB2B91528900B4151E /* playlist-localizerTests */ = {
+			isa = PBXGroup;
+			children = (
+				AF8FFBDC2B91528900B4151E /* playlist_localizerTests.swift */,
+			);
+			path = "playlist-localizerTests";
+			sourceTree = "<group>";
+		};
+		AF8FFBE52B91528900B4151E /* playlist-localizerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AF8FFBE62B91528900B4151E /* playlist_localizerUITests.swift */,
+				AF8FFBE82B91528900B4151E /* playlist_localizerUITestsLaunchTests.swift */,
+			);
+			path = "playlist-localizerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF8FFBC62B91528600B4151E /* playlist-localizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF8FFBEC2B91528900B4151E /* Build configuration list for PBXNativeTarget "playlist-localizer" */;
+			buildPhases = (
+				AF8FFBC32B91528600B4151E /* Sources */,
+				AF8FFBC42B91528600B4151E /* Frameworks */,
+				AF8FFBC52B91528600B4151E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "playlist-localizer";
+			productName = "playlist-localizer";
+			productReference = AF8FFBC72B91528600B4151E /* playlist-localizer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AF8FFBD72B91528900B4151E /* playlist-localizerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF8FFBEF2B91528900B4151E /* Build configuration list for PBXNativeTarget "playlist-localizerTests" */;
+			buildPhases = (
+				AF8FFBD42B91528900B4151E /* Sources */,
+				AF8FFBD52B91528900B4151E /* Frameworks */,
+				AF8FFBD62B91528900B4151E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF8FFBDA2B91528900B4151E /* PBXTargetDependency */,
+			);
+			name = "playlist-localizerTests";
+			productName = "playlist-localizerTests";
+			productReference = AF8FFBD82B91528900B4151E /* playlist-localizerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AF8FFBE12B91528900B4151E /* playlist-localizerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF8FFBF22B91528900B4151E /* Build configuration list for PBXNativeTarget "playlist-localizerUITests" */;
+			buildPhases = (
+				AF8FFBDE2B91528900B4151E /* Sources */,
+				AF8FFBDF2B91528900B4151E /* Frameworks */,
+				AF8FFBE02B91528900B4151E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF8FFBE42B91528900B4151E /* PBXTargetDependency */,
+			);
+			name = "playlist-localizerUITests";
+			productName = "playlist-localizerUITests";
+			productReference = AF8FFBE22B91528900B4151E /* playlist-localizerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF8FFBBF2B91528600B4151E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					AF8FFBC62B91528600B4151E = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					AF8FFBD72B91528900B4151E = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = AF8FFBC62B91528600B4151E;
+					};
+					AF8FFBE12B91528900B4151E = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = AF8FFBC62B91528600B4151E;
+					};
+				};
+			};
+			buildConfigurationList = AF8FFBC22B91528600B4151E /* Build configuration list for PBXProject "playlist-localizer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF8FFBBE2B91528600B4151E;
+			productRefGroup = AF8FFBC82B91528600B4151E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF8FFBC62B91528600B4151E /* playlist-localizer */,
+				AF8FFBD72B91528900B4151E /* playlist-localizerTests */,
+				AF8FFBE12B91528900B4151E /* playlist-localizerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF8FFBC52B91528600B4151E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF8FFBD22B91528900B4151E /* Preview Assets.xcassets in Resources */,
+				AF8FFBCF2B91528900B4151E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF8FFBD62B91528900B4151E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF8FFBE02B91528900B4151E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF8FFBC32B91528600B4151E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF8FFBCD2B91528600B4151E /* ContentView.swift in Sources */,
+				AF8FFBCB2B91528600B4151E /* playlist_localizerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF8FFBD42B91528900B4151E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF8FFBDD2B91528900B4151E /* playlist_localizerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF8FFBDE2B91528900B4151E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF8FFBE92B91528900B4151E /* playlist_localizerUITestsLaunchTests.swift in Sources */,
+				AF8FFBE72B91528900B4151E /* playlist_localizerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF8FFBDA2B91528900B4151E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF8FFBC62B91528600B4151E /* playlist-localizer */;
+			targetProxy = AF8FFBD92B91528900B4151E /* PBXContainerItemProxy */;
+		};
+		AF8FFBE42B91528900B4151E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF8FFBC62B91528600B4151E /* playlist-localizer */;
+			targetProxy = AF8FFBE32B91528900B4151E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AF8FFBEA2B91528900B4151E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AF8FFBEB2B91528900B4151E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		AF8FFBED2B91528900B4151E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "playlist-localizer/playlist_localizer.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"playlist-localizer/Preview Content\"";
+				DEVELOPMENT_TEAM = T4FSA2B9WN;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Pods.playlist-localizer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AF8FFBEE2B91528900B4151E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "playlist-localizer/playlist_localizer.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"playlist-localizer/Preview Content\"";
+				DEVELOPMENT_TEAM = T4FSA2B9WN;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Pods.playlist-localizer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		AF8FFBF02B91528900B4151E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T4FSA2B9WN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Pods.playlist-localizerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/playlist-localizer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/playlist-localizer";
+			};
+			name = Debug;
+		};
+		AF8FFBF12B91528900B4151E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T4FSA2B9WN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Pods.playlist-localizerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/playlist-localizer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/playlist-localizer";
+			};
+			name = Release;
+		};
+		AF8FFBF32B91528900B4151E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T4FSA2B9WN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Pods.playlist-localizerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "playlist-localizer";
+			};
+			name = Debug;
+		};
+		AF8FFBF42B91528900B4151E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T4FSA2B9WN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Pods.playlist-localizerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "playlist-localizer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF8FFBC22B91528600B4151E /* Build configuration list for PBXProject "playlist-localizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF8FFBEA2B91528900B4151E /* Debug */,
+				AF8FFBEB2B91528900B4151E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF8FFBEC2B91528900B4151E /* Build configuration list for PBXNativeTarget "playlist-localizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF8FFBED2B91528900B4151E /* Debug */,
+				AF8FFBEE2B91528900B4151E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF8FFBEF2B91528900B4151E /* Build configuration list for PBXNativeTarget "playlist-localizerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF8FFBF02B91528900B4151E /* Debug */,
+				AF8FFBF12B91528900B4151E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF8FFBF22B91528900B4151E /* Build configuration list for PBXNativeTarget "playlist-localizerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF8FFBF32B91528900B4151E /* Debug */,
+				AF8FFBF42B91528900B4151E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF8FFBBF2B91528600B4151E /* Project object */;
+}
