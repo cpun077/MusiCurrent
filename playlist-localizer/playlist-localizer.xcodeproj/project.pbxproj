@@ -7,66 +7,64 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AF8FFBCB2B91528600B4151E /* playlist_localizerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8FFBCA2B91528600B4151E /* playlist_localizerApp.swift */; };
-		AF8FFBCD2B91528600B4151E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8FFBCC2B91528600B4151E /* ContentView.swift */; };
-		AF8FFBCF2B91528900B4151E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF8FFBCE2B91528900B4151E /* Assets.xcassets */; };
-		AF8FFBD22B91528900B4151E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF8FFBD12B91528900B4151E /* Preview Assets.xcassets */; };
-		AF8FFBDD2B91528900B4151E /* playlist_localizerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8FFBDC2B91528900B4151E /* playlist_localizerTests.swift */; };
-		AF8FFBE72B91528900B4151E /* playlist_localizerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8FFBE62B91528900B4151E /* playlist_localizerUITests.swift */; };
-		AF8FFBE92B91528900B4151E /* playlist_localizerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8FFBE82B91528900B4151E /* playlist_localizerUITestsLaunchTests.swift */; };
-		AF8FFBF92B91589700B4151E /* converter.py in Resources */ = {isa = PBXBuildFile; fileRef = AF8FFBF82B91589700B4151E /* converter.py */; };
-		AF8FFBFC2B91595600B4151E /* PythonKit in Frameworks */ = {isa = PBXBuildFile; productRef = AF8FFBFB2B91595600B4151E /* PythonKit */; };
+		AF477B532B929C7200C013D8 /* playlist_localizerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF477B522B929C7200C013D8 /* playlist_localizerApp.swift */; };
+		AF477B552B929C7200C013D8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF477B542B929C7200C013D8 /* ContentView.swift */; };
+		AF477B572B929C7400C013D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF477B562B929C7400C013D8 /* Assets.xcassets */; };
+		AF477B5B2B929C7400C013D8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF477B5A2B929C7400C013D8 /* Preview Assets.xcassets */; };
+		AF477B652B929C7400C013D8 /* playlist_localizerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF477B642B929C7400C013D8 /* playlist_localizerTests.swift */; };
+		AF477B6F2B929C7400C013D8 /* playlist_localizerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF477B6E2B929C7400C013D8 /* playlist_localizerUITests.swift */; };
+		AF477B712B929C7400C013D8 /* playlist_localizerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF477B702B929C7400C013D8 /* playlist_localizerUITestsLaunchTests.swift */; };
+		AF477B7F2B929CA200C013D8 /* PythonKit in Frameworks */ = {isa = PBXBuildFile; productRef = AF477B7E2B929CA200C013D8 /* PythonKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		AF8FFBD92B91528900B4151E /* PBXContainerItemProxy */ = {
+		AF477B612B929C7400C013D8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = AF8FFBBF2B91528600B4151E /* Project object */;
+			containerPortal = AF477B472B929C7200C013D8 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = AF8FFBC62B91528600B4151E;
+			remoteGlobalIDString = AF477B4E2B929C7200C013D8;
 			remoteInfo = "playlist-localizer";
 		};
-		AF8FFBE32B91528900B4151E /* PBXContainerItemProxy */ = {
+		AF477B6B2B929C7400C013D8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = AF8FFBBF2B91528600B4151E /* Project object */;
+			containerPortal = AF477B472B929C7200C013D8 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = AF8FFBC62B91528600B4151E;
+			remoteGlobalIDString = AF477B4E2B929C7200C013D8;
 			remoteInfo = "playlist-localizer";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		AF8FFBC72B91528600B4151E /* playlist-localizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "playlist-localizer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AF8FFBCA2B91528600B4151E /* playlist_localizerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = playlist_localizerApp.swift; sourceTree = "<group>"; };
-		AF8FFBCC2B91528600B4151E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		AF8FFBCE2B91528900B4151E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		AF8FFBD12B91528900B4151E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		AF8FFBD32B91528900B4151E /* playlist_localizer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = playlist_localizer.entitlements; sourceTree = "<group>"; };
-		AF8FFBD82B91528900B4151E /* playlist-localizerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "playlist-localizerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AF8FFBDC2B91528900B4151E /* playlist_localizerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = playlist_localizerTests.swift; sourceTree = "<group>"; };
-		AF8FFBE22B91528900B4151E /* playlist-localizerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "playlist-localizerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AF8FFBE62B91528900B4151E /* playlist_localizerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = playlist_localizerUITests.swift; sourceTree = "<group>"; };
-		AF8FFBE82B91528900B4151E /* playlist_localizerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = playlist_localizerUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		AF8FFBF82B91589700B4151E /* converter.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; name = converter.py; path = ../../../converter.py; sourceTree = "<group>"; };
+		AF477B4F2B929C7200C013D8 /* playlist-localizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "playlist-localizer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF477B522B929C7200C013D8 /* playlist_localizerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = playlist_localizerApp.swift; sourceTree = "<group>"; };
+		AF477B542B929C7200C013D8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AF477B562B929C7400C013D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF477B582B929C7400C013D8 /* playlist_localizer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = playlist_localizer.entitlements; sourceTree = "<group>"; };
+		AF477B5A2B929C7400C013D8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AF477B602B929C7400C013D8 /* playlist-localizerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "playlist-localizerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF477B642B929C7400C013D8 /* playlist_localizerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = playlist_localizerTests.swift; sourceTree = "<group>"; };
+		AF477B6A2B929C7400C013D8 /* playlist-localizerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "playlist-localizerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF477B6E2B929C7400C013D8 /* playlist_localizerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = playlist_localizerUITests.swift; sourceTree = "<group>"; };
+		AF477B702B929C7400C013D8 /* playlist_localizerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = playlist_localizerUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		AF8FFBC42B91528600B4151E /* Frameworks */ = {
+		AF477B4C2B929C7200C013D8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF8FFBFC2B91595600B4151E /* PythonKit in Frameworks */,
+				AF477B7F2B929CA200C013D8 /* PythonKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AF8FFBD52B91528900B4151E /* Frameworks */ = {
+		AF477B5D2B929C7400C013D8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AF8FFBDF2B91528900B4151E /* Frameworks */ = {
+		AF477B672B929C7400C013D8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,82 +74,73 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		AF8FFBBE2B91528600B4151E = {
+		AF477B462B929C7200C013D8 = {
 			isa = PBXGroup;
 			children = (
-				AF8FFBC92B91528600B4151E /* playlist-localizer */,
-				AF8FFBDB2B91528900B4151E /* playlist-localizerTests */,
-				AF8FFBE52B91528900B4151E /* playlist-localizerUITests */,
-				AF8FFBC82B91528600B4151E /* Products */,
+				AF477B512B929C7200C013D8 /* playlist-localizer */,
+				AF477B632B929C7400C013D8 /* playlist-localizerTests */,
+				AF477B6D2B929C7400C013D8 /* playlist-localizerUITests */,
+				AF477B502B929C7200C013D8 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		AF8FFBC82B91528600B4151E /* Products */ = {
+		AF477B502B929C7200C013D8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AF8FFBC72B91528600B4151E /* playlist-localizer.app */,
-				AF8FFBD82B91528900B4151E /* playlist-localizerTests.xctest */,
-				AF8FFBE22B91528900B4151E /* playlist-localizerUITests.xctest */,
+				AF477B4F2B929C7200C013D8 /* playlist-localizer.app */,
+				AF477B602B929C7400C013D8 /* playlist-localizerTests.xctest */,
+				AF477B6A2B929C7400C013D8 /* playlist-localizerUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AF8FFBC92B91528600B4151E /* playlist-localizer */ = {
+		AF477B512B929C7200C013D8 /* playlist-localizer */ = {
 			isa = PBXGroup;
 			children = (
-				AF8FFBF52B91571200B4151E /* scripts */,
-				AF8FFBCA2B91528600B4151E /* playlist_localizerApp.swift */,
-				AF8FFBCC2B91528600B4151E /* ContentView.swift */,
-				AF8FFBCE2B91528900B4151E /* Assets.xcassets */,
-				AF8FFBD32B91528900B4151E /* playlist_localizer.entitlements */,
-				AF8FFBD02B91528900B4151E /* Preview Content */,
+				AF477B522B929C7200C013D8 /* playlist_localizerApp.swift */,
+				AF477B542B929C7200C013D8 /* ContentView.swift */,
+				AF477B562B929C7400C013D8 /* Assets.xcassets */,
+				AF477B582B929C7400C013D8 /* playlist_localizer.entitlements */,
+				AF477B592B929C7400C013D8 /* Preview Content */,
 			);
 			path = "playlist-localizer";
 			sourceTree = "<group>";
 		};
-		AF8FFBD02B91528900B4151E /* Preview Content */ = {
+		AF477B592B929C7400C013D8 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				AF8FFBD12B91528900B4151E /* Preview Assets.xcassets */,
+				AF477B5A2B929C7400C013D8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		AF8FFBDB2B91528900B4151E /* playlist-localizerTests */ = {
+		AF477B632B929C7400C013D8 /* playlist-localizerTests */ = {
 			isa = PBXGroup;
 			children = (
-				AF8FFBDC2B91528900B4151E /* playlist_localizerTests.swift */,
+				AF477B642B929C7400C013D8 /* playlist_localizerTests.swift */,
 			);
 			path = "playlist-localizerTests";
 			sourceTree = "<group>";
 		};
-		AF8FFBE52B91528900B4151E /* playlist-localizerUITests */ = {
+		AF477B6D2B929C7400C013D8 /* playlist-localizerUITests */ = {
 			isa = PBXGroup;
 			children = (
-				AF8FFBE62B91528900B4151E /* playlist_localizerUITests.swift */,
-				AF8FFBE82B91528900B4151E /* playlist_localizerUITestsLaunchTests.swift */,
+				AF477B6E2B929C7400C013D8 /* playlist_localizerUITests.swift */,
+				AF477B702B929C7400C013D8 /* playlist_localizerUITestsLaunchTests.swift */,
 			);
 			path = "playlist-localizerUITests";
-			sourceTree = "<group>";
-		};
-		AF8FFBF52B91571200B4151E /* scripts */ = {
-			isa = PBXGroup;
-			children = (
-				AF8FFBF82B91589700B4151E /* converter.py */,
-			);
-			path = scripts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AF8FFBC62B91528600B4151E /* playlist-localizer */ = {
+		AF477B4E2B929C7200C013D8 /* playlist-localizer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AF8FFBEC2B91528900B4151E /* Build configuration list for PBXNativeTarget "playlist-localizer" */;
+			buildConfigurationList = AF477B742B929C7400C013D8 /* Build configuration list for PBXNativeTarget "playlist-localizer" */;
 			buildPhases = (
-				AF8FFBC32B91528600B4151E /* Sources */,
-				AF8FFBC42B91528600B4151E /* Frameworks */,
-				AF8FFBC52B91528600B4151E /* Resources */,
+				AF477B4B2B929C7200C013D8 /* Sources */,
+				AF477B4C2B929C7200C013D8 /* Frameworks */,
+				AF477B4D2B929C7200C013D8 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -159,72 +148,72 @@
 			);
 			name = "playlist-localizer";
 			packageProductDependencies = (
-				AF8FFBFB2B91595600B4151E /* PythonKit */,
+				AF477B7E2B929CA200C013D8 /* PythonKit */,
 			);
 			productName = "playlist-localizer";
-			productReference = AF8FFBC72B91528600B4151E /* playlist-localizer.app */;
+			productReference = AF477B4F2B929C7200C013D8 /* playlist-localizer.app */;
 			productType = "com.apple.product-type.application";
 		};
-		AF8FFBD72B91528900B4151E /* playlist-localizerTests */ = {
+		AF477B5F2B929C7400C013D8 /* playlist-localizerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AF8FFBEF2B91528900B4151E /* Build configuration list for PBXNativeTarget "playlist-localizerTests" */;
+			buildConfigurationList = AF477B772B929C7400C013D8 /* Build configuration list for PBXNativeTarget "playlist-localizerTests" */;
 			buildPhases = (
-				AF8FFBD42B91528900B4151E /* Sources */,
-				AF8FFBD52B91528900B4151E /* Frameworks */,
-				AF8FFBD62B91528900B4151E /* Resources */,
+				AF477B5C2B929C7400C013D8 /* Sources */,
+				AF477B5D2B929C7400C013D8 /* Frameworks */,
+				AF477B5E2B929C7400C013D8 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				AF8FFBDA2B91528900B4151E /* PBXTargetDependency */,
+				AF477B622B929C7400C013D8 /* PBXTargetDependency */,
 			);
 			name = "playlist-localizerTests";
 			productName = "playlist-localizerTests";
-			productReference = AF8FFBD82B91528900B4151E /* playlist-localizerTests.xctest */;
+			productReference = AF477B602B929C7400C013D8 /* playlist-localizerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		AF8FFBE12B91528900B4151E /* playlist-localizerUITests */ = {
+		AF477B692B929C7400C013D8 /* playlist-localizerUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AF8FFBF22B91528900B4151E /* Build configuration list for PBXNativeTarget "playlist-localizerUITests" */;
+			buildConfigurationList = AF477B7A2B929C7400C013D8 /* Build configuration list for PBXNativeTarget "playlist-localizerUITests" */;
 			buildPhases = (
-				AF8FFBDE2B91528900B4151E /* Sources */,
-				AF8FFBDF2B91528900B4151E /* Frameworks */,
-				AF8FFBE02B91528900B4151E /* Resources */,
+				AF477B662B929C7400C013D8 /* Sources */,
+				AF477B672B929C7400C013D8 /* Frameworks */,
+				AF477B682B929C7400C013D8 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				AF8FFBE42B91528900B4151E /* PBXTargetDependency */,
+				AF477B6C2B929C7400C013D8 /* PBXTargetDependency */,
 			);
 			name = "playlist-localizerUITests";
 			productName = "playlist-localizerUITests";
-			productReference = AF8FFBE22B91528900B4151E /* playlist-localizerUITests.xctest */;
+			productReference = AF477B6A2B929C7400C013D8 /* playlist-localizerUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		AF8FFBBF2B91528600B4151E /* Project object */ = {
+		AF477B472B929C7200C013D8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1400;
 				LastUpgradeCheck = 1400;
 				TargetAttributes = {
-					AF8FFBC62B91528600B4151E = {
+					AF477B4E2B929C7200C013D8 = {
 						CreatedOnToolsVersion = 14.0;
 					};
-					AF8FFBD72B91528900B4151E = {
+					AF477B5F2B929C7400C013D8 = {
 						CreatedOnToolsVersion = 14.0;
-						TestTargetID = AF8FFBC62B91528600B4151E;
+						TestTargetID = AF477B4E2B929C7200C013D8;
 					};
-					AF8FFBE12B91528900B4151E = {
+					AF477B692B929C7400C013D8 = {
 						CreatedOnToolsVersion = 14.0;
-						TestTargetID = AF8FFBC62B91528600B4151E;
+						TestTargetID = AF477B4E2B929C7200C013D8;
 					};
 				};
 			};
-			buildConfigurationList = AF8FFBC22B91528600B4151E /* Build configuration list for PBXProject "playlist-localizer" */;
+			buildConfigurationList = AF477B4A2B929C7200C013D8 /* Build configuration list for PBXProject "playlist-localizer" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -232,40 +221,39 @@
 				en,
 				Base,
 			);
-			mainGroup = AF8FFBBE2B91528600B4151E;
+			mainGroup = AF477B462B929C7200C013D8;
 			packageReferences = (
-				AF8FFBFA2B91595600B4151E /* XCRemoteSwiftPackageReference "PythonKit" */,
+				AF477B7D2B929CA200C013D8 /* XCRemoteSwiftPackageReference "PythonKit" */,
 			);
-			productRefGroup = AF8FFBC82B91528600B4151E /* Products */;
+			productRefGroup = AF477B502B929C7200C013D8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AF8FFBC62B91528600B4151E /* playlist-localizer */,
-				AF8FFBD72B91528900B4151E /* playlist-localizerTests */,
-				AF8FFBE12B91528900B4151E /* playlist-localizerUITests */,
+				AF477B4E2B929C7200C013D8 /* playlist-localizer */,
+				AF477B5F2B929C7400C013D8 /* playlist-localizerTests */,
+				AF477B692B929C7400C013D8 /* playlist-localizerUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		AF8FFBC52B91528600B4151E /* Resources */ = {
+		AF477B4D2B929C7200C013D8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF8FFBD22B91528900B4151E /* Preview Assets.xcassets in Resources */,
-				AF8FFBF92B91589700B4151E /* converter.py in Resources */,
-				AF8FFBCF2B91528900B4151E /* Assets.xcassets in Resources */,
+				AF477B5B2B929C7400C013D8 /* Preview Assets.xcassets in Resources */,
+				AF477B572B929C7400C013D8 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AF8FFBD62B91528900B4151E /* Resources */ = {
+		AF477B5E2B929C7400C013D8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AF8FFBE02B91528900B4151E /* Resources */ = {
+		AF477B682B929C7400C013D8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -275,49 +263,49 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		AF8FFBC32B91528600B4151E /* Sources */ = {
+		AF477B4B2B929C7200C013D8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF8FFBCD2B91528600B4151E /* ContentView.swift in Sources */,
-				AF8FFBCB2B91528600B4151E /* playlist_localizerApp.swift in Sources */,
+				AF477B552B929C7200C013D8 /* ContentView.swift in Sources */,
+				AF477B532B929C7200C013D8 /* playlist_localizerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AF8FFBD42B91528900B4151E /* Sources */ = {
+		AF477B5C2B929C7400C013D8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF8FFBDD2B91528900B4151E /* playlist_localizerTests.swift in Sources */,
+				AF477B652B929C7400C013D8 /* playlist_localizerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AF8FFBDE2B91528900B4151E /* Sources */ = {
+		AF477B662B929C7400C013D8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF8FFBE92B91528900B4151E /* playlist_localizerUITestsLaunchTests.swift in Sources */,
-				AF8FFBE72B91528900B4151E /* playlist_localizerUITests.swift in Sources */,
+				AF477B712B929C7400C013D8 /* playlist_localizerUITestsLaunchTests.swift in Sources */,
+				AF477B6F2B929C7400C013D8 /* playlist_localizerUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		AF8FFBDA2B91528900B4151E /* PBXTargetDependency */ = {
+		AF477B622B929C7400C013D8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = AF8FFBC62B91528600B4151E /* playlist-localizer */;
-			targetProxy = AF8FFBD92B91528900B4151E /* PBXContainerItemProxy */;
+			target = AF477B4E2B929C7200C013D8 /* playlist-localizer */;
+			targetProxy = AF477B612B929C7400C013D8 /* PBXContainerItemProxy */;
 		};
-		AF8FFBE42B91528900B4151E /* PBXTargetDependency */ = {
+		AF477B6C2B929C7400C013D8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = AF8FFBC62B91528600B4151E /* playlist-localizer */;
-			targetProxy = AF8FFBE32B91528900B4151E /* PBXContainerItemProxy */;
+			target = AF477B4E2B929C7200C013D8 /* playlist-localizer */;
+			targetProxy = AF477B6B2B929C7400C013D8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		AF8FFBEA2B91528900B4151E /* Debug */ = {
+		AF477B722B929C7400C013D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -367,17 +355,15 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		AF8FFBEB2B91528900B4151E /* Release */ = {
+		AF477B732B929C7400C013D8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -421,70 +407,90 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				SDKROOT = macosx;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 			};
 			name = Release;
 		};
-		AF8FFBED2B91528900B4151E /* Debug */ = {
+		AF477B752B929C7400C013D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "playlist-localizer/playlist_localizer.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"playlist-localizer/Preview Content\"";
 				DEVELOPMENT_TEAM = T4FSA2B9WN;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Pods.playlist-localizer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		AF8FFBEE2B91528900B4151E /* Release */ = {
+		AF477B762B929C7400C013D8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "playlist-localizer/playlist_localizer.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"playlist-localizer/Preview Content\"";
 				DEVELOPMENT_TEAM = T4FSA2B9WN;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Pods.playlist-localizer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		AF8FFBF02B91528900B4151E /* Debug */ = {
+		AF477B782B929C7400C013D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -493,17 +499,21 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = T4FSA2B9WN;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Pods.playlist-localizerTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/playlist-localizer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/playlist-localizer";
 			};
 			name = Debug;
 		};
-		AF8FFBF12B91528900B4151E /* Release */ = {
+		AF477B792B929C7400C013D8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -512,17 +522,21 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = T4FSA2B9WN;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Pods.playlist-localizerTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/playlist-localizer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/playlist-localizer";
 			};
 			name = Release;
 		};
-		AF8FFBF32B91528900B4151E /* Debug */ = {
+		AF477B7B2B929C7400C013D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -530,16 +544,21 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = T4FSA2B9WN;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Pods.playlist-localizerUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = "playlist-localizer";
 			};
 			name = Debug;
 		};
-		AF8FFBF42B91528900B4151E /* Release */ = {
+		AF477B7C2B929C7400C013D8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -547,11 +566,16 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = T4FSA2B9WN;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Pods.playlist-localizerUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = "playlist-localizer";
 			};
 			name = Release;
@@ -559,38 +583,38 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AF8FFBC22B91528600B4151E /* Build configuration list for PBXProject "playlist-localizer" */ = {
+		AF477B4A2B929C7200C013D8 /* Build configuration list for PBXProject "playlist-localizer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AF8FFBEA2B91528900B4151E /* Debug */,
-				AF8FFBEB2B91528900B4151E /* Release */,
+				AF477B722B929C7400C013D8 /* Debug */,
+				AF477B732B929C7400C013D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AF8FFBEC2B91528900B4151E /* Build configuration list for PBXNativeTarget "playlist-localizer" */ = {
+		AF477B742B929C7400C013D8 /* Build configuration list for PBXNativeTarget "playlist-localizer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AF8FFBED2B91528900B4151E /* Debug */,
-				AF8FFBEE2B91528900B4151E /* Release */,
+				AF477B752B929C7400C013D8 /* Debug */,
+				AF477B762B929C7400C013D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AF8FFBEF2B91528900B4151E /* Build configuration list for PBXNativeTarget "playlist-localizerTests" */ = {
+		AF477B772B929C7400C013D8 /* Build configuration list for PBXNativeTarget "playlist-localizerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AF8FFBF02B91528900B4151E /* Debug */,
-				AF8FFBF12B91528900B4151E /* Release */,
+				AF477B782B929C7400C013D8 /* Debug */,
+				AF477B792B929C7400C013D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AF8FFBF22B91528900B4151E /* Build configuration list for PBXNativeTarget "playlist-localizerUITests" */ = {
+		AF477B7A2B929C7400C013D8 /* Build configuration list for PBXNativeTarget "playlist-localizerUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AF8FFBF32B91528900B4151E /* Debug */,
-				AF8FFBF42B91528900B4151E /* Release */,
+				AF477B7B2B929C7400C013D8 /* Debug */,
+				AF477B7C2B929C7400C013D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -598,7 +622,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		AF8FFBFA2B91595600B4151E /* XCRemoteSwiftPackageReference "PythonKit" */ = {
+		AF477B7D2B929CA200C013D8 /* XCRemoteSwiftPackageReference "PythonKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/pvieito/PythonKit.git";
 			requirement = {
@@ -609,12 +633,12 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		AF8FFBFB2B91595600B4151E /* PythonKit */ = {
+		AF477B7E2B929CA200C013D8 /* PythonKit */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = AF8FFBFA2B91595600B4151E /* XCRemoteSwiftPackageReference "PythonKit" */;
+			package = AF477B7D2B929CA200C013D8 /* XCRemoteSwiftPackageReference "PythonKit" */;
 			productName = PythonKit;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = AF8FFBBF2B91528600B4151E /* Project object */;
+	rootObject = AF477B472B929C7200C013D8 /* Project object */;
 }

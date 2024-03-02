@@ -2,11 +2,10 @@
 //  playlist_localizerTests.swift
 //  playlist-localizerTests
 //
-//  Created by Caden Pun on 2/29/24.
+//  Created by Caden Pun on 3/1/24.
 //
 
 import XCTest
-@testable import playlist_localizer
 
 final class playlist_localizerTests: XCTestCase {
 
@@ -28,7 +27,7 @@ final class playlist_localizerTests: XCTestCase {
 
     func testPerformanceExample() throws {
         // This is an example of a performance test case.
-        self.measure {
+        measure {
             // Put the code you want to measure the time of here.
         }
     }
