@@ -7,23 +7,38 @@
 
 import SwiftUI
 
+class FormViewModel: ObservableObject {
+    @Published var link = ""
+}
+
 struct ContentView: View {
-    @State var link = ""
+    @State var viewModel = FormViewModel()
     
     var body: some View {
         GeometryReader { geometry in
             NavigationView {
                 VStack {
-                    Spacer().frame(height: geometry.size.height*0.1)
                     Form {
-                        Section {
-                            TextField("Link", text: $link)
-                        }
                         Section(footer: Text("Your link must be from a supported platform.")) {
+                            TextField("Link", text: $viewModel.link)
                         }
                     }
                     Button(action: {
-                        // Your button action
+                        // downloadsurl = "/Users/cadenpun/Downloads"
+                        if let downloads = FileManager.default.urls(for: .downloadsDirectory, in: .userDomainMask).first {
+                            let sfolder = downloads.appendingPathComponent("Sounds")
+                            if !FileManager.default.fileExists(atPath: sfolder.path) {
+                                do {
+                                    try FileManager.default.createDirectory(at: sfolder, withIntermediateDirectories: true)
+                                } catch {
+                                    print("Could not create a folder to dump files, using Downloads folder")
+                                    runScript(pl: viewModel.link, dir: downloads.path)
+                                }
+                            }
+                            runScript(pl: viewModel.link, dir: sfolder.path)
+                        } else {
+                            print("Could not access Downloads folder")
+                        }
                     }) {
                         Text("Submit")
                             .frame(width: geometry.size.width / 2, height: geometry.size.height / 15)
@@ -31,9 +46,10 @@ struct ContentView: View {
                             .background(Color.blue)
                             .cornerRadius(10)
                     }
-                    Spacer().frame(height: geometry.size.height*0.15)
+                    .padding()
                 }
                 .navigationTitle("Paste Playlist")
+                .padding()
             }
         }
     }
