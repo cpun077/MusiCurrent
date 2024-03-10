@@ -44,10 +44,11 @@ struct ContentView: View {
                             .frame(width: geometry.size.width / 2, height: geometry.size.height / 15)
                             .foregroundColor(.white)
                             .background(Color.blue)
-                            .cornerRadius(10)
+                            .cornerRadius(15)
                     }
                     .padding()
                 }
+                .frame(maxWidth: .infinity, maxHeight: .infinity)
                 .navigationTitle("Paste Playlist")
                 .padding()
             }

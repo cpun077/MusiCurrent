@@ -18,7 +18,7 @@ func runScript(pl: String, dir: String) -> Void {
         do {
             let file = try Python.attemptImport(filename)
             print(file)
-            let res = file.dlpl(pl, dir)
+            file.dlplaylist(pl, dir)
         } catch {
             print("Import Error: ", error)
         }
