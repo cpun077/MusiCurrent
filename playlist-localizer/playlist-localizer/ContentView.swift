@@ -32,10 +32,10 @@ struct ContentView: View {
                                     try FileManager.default.createDirectory(at: sfolder, withIntermediateDirectories: true)
                                 } catch {
                                     print("Could not create a folder to dump files, using Downloads folder")
-                                    runScript(pl: viewModel.link, dir: downloads.path)
+                                    runScript(url: viewModel.link, dir: downloads.path)
                                 }
                             }
-                            runScript(pl: viewModel.link, dir: sfolder.path)
+                            runScript(url: viewModel.link, dir: sfolder.path)
                         } else {
                             print("Could not access Downloads folder")
                         }

@@ -8,7 +8,7 @@
 import Foundation
 import PythonKit
 
-func runScript(pl: String, dir: String) -> Void {
+func runScript(url: String, dir: String) -> Void {
     let sys = Python.import("sys")
     let filename = "converter"
     let path = URL(fileURLWithPath: #file).deletingLastPathComponent().path
@@ -18,7 +18,7 @@ func runScript(pl: String, dir: String) -> Void {
         do {
             let file = try Python.attemptImport(filename)
             print(file)
-            file.dlplaylist(pl, dir)
+            file.processlink(url, dir)
         } catch {
             print("Import Error: ", error)
         }
