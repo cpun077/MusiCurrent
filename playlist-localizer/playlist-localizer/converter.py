@@ -1,6 +1,6 @@
 from pytube import Playlist, YouTube
-import os
-import subprocess
+from moviepy.editor import AudioFileClip
+import os, subprocess, platform
 
 def processlink(url, dir):
     print("Link: ", url, " Dir:", dir)
@@ -15,15 +15,25 @@ def getYTsong(video, dir):
     try:
         audios = video.streams.filter(only_audio=True).order_by('abr').desc()
         best = audios[0]
-        print(best)
         path = best.download(dir)
-        print("Downloading completed")
-        #path = os.path.dirname(dir) + "/DAGOAT (INFINITY MONEY).mp3"
-        applescript = (
-            'tell application "Music" to add (POSIX file "' + path + '") as alias'
-        )
-        subprocess.call(['osascript', '-e', applescript])
-        print("Uploading completed")
+        print("Downloaded: ", best, " at ", path)
+
+        if (platform.system() == 'Darwin'):
+            if (path.endswith(('.webm', '.ogg'))):
+                song = AudioFileClip(path)
+                newpath = os.path.splitext(path)[0] + '.aac'
+                song.write_audiofile(newpath, codec='aac')
+                os.remove(path)
+                song.close()
+                print("File format converted to .aac")
+                
+            applescript = (
+                'tell application "Music" to add (POSIX file "' + path + '") as alias'
+            )
+            subprocess.call(['osascript', '-e', applescript])
+            print("AppleScript completed; song uploaded")
+        else:
+            print("Skipped Apple Music upload; not on MacOS")
     except Exception as e:
         print("Converter Error: ", e)
         
