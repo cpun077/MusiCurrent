@@ -17,7 +17,6 @@ func runScript(url: String, dir: String) -> Void {
         sys.path.insert(0, path)
         do {
             let file = try Python.attemptImport(filename)
-            print(file)
             file.processlink(url, dir)
         } catch {
             print("Import Error: ", error)
