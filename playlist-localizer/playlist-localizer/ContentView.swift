@@ -47,17 +47,23 @@ struct ContentView: View {
     var root: some View {
         GeometryReader { geometry in
             VStack {
+                Spacer().frame(height: geometry.size.height / 7)
                 Form {
-                    Section(footer: Text("Your link must be from a supported platform.")) {
-                        TextField("Link", text: $viewModel.link)
+                    TextField(text: $viewModel.link) {
+                        Text("Link")
                     }
+                        .frame(width: geometry.size.width * 0.8)
+                    Text("Your link must be from a supported platform.")
                 }
+                .frame(maxWidth: .infinity)
+                Spacer().frame(height: geometry.size.height / 3)
                 Button(action: {
                     withAnimation(.easeOut(duration: 0.3)) {
                         currentView = .subview
                     }
                     
                     DispatchQueue.main.asyncAfter(deadline: .now() + 0.3) {
+                        let runner = Runner()
                         if let downloads = FileManager.default.urls(for: .downloadsDirectory, in: .userDomainMask).first {
                             let sfolder = downloads.appendingPathComponent("Sounds")
                             if !FileManager.default.fileExists(atPath: sfolder.path) {
@@ -65,32 +71,29 @@ struct ContentView: View {
                                     try FileManager.default.createDirectory(at: sfolder, withIntermediateDirectories: true)
                                 } catch {
                                     print("Could not create a folder to dump files, using Downloads folder")
-                                    runScript(url: viewModel.link, dir: downloads.path)
+                                    runner.runScript(url: viewModel.link, dir: downloads.path)
                                 }
                             }
-                            runScript(url: viewModel.link, dir: sfolder.path)
+                            runner.runScript(url: viewModel.link, dir: sfolder.path)
                         } else {
                             print("Could not access Downloads folder")
                         }
                     }
                 }) {
                     Text("Submit")
-                        .frame(width: geometry.size.width / 2, height: geometry.size.height / 15)
+                        .frame(width: geometry.size.width / 4, height: geometry.size.height / 12)
                         .foregroundColor(.white)
                         .background(Color.blue)
-                        .cornerRadius(15)
                 }
+                .buttonStyle(PlainButtonStyle())
+                .cornerRadius(12)
             }
         }
     }
     
     var subview: some View {
-        Text("Downloading Songs").frame(maxWidth: .infinity, maxHeight: .infinity)
-            .onTapGesture {
-                withAnimation(.easeOut(duration: 0.3)) {
-                    currentView = .root
-                }
-            }
+        Text("Processing URL")
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
     }
 }
 
