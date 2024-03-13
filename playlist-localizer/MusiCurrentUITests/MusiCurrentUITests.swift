@@ -1,6 +1,6 @@
 //
-//  playlist_localizerUITests.swift
-//  playlist-localizerUITests
+//  MusiCurrentUITests.swift
+//  MusiCurrentUITests
 //
 //  Created by Caden Pun on 3/1/24.
 //

@@ -1,6 +1,6 @@
 //
 //  Runner.swift
-//  playlist-localizer
+//  MusiCurrent
 //
 //  Created by Caden Pun on 3/5/24.
 //

@@ -1,13 +1,13 @@
 //
-//  playlist_localizerTests.swift
-//  playlist-localizerTests
+//  musiCurrentTests.swift
+//  musiCurrentTests
 //
 //  Created by Caden Pun on 3/1/24.
 //
 
 import XCTest
 
-final class playlist_localizerTests: XCTestCase {
+final class musiCurrent: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

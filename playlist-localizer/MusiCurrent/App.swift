@@ -1,6 +1,6 @@
 //
-//  playlist_localizerApp.swift
-//  playlist-localizer
+//  App.swift
+//  MusiCurrent
 //
 //  Created by Caden Pun on 3/1/24.
 //
@@ -9,7 +9,7 @@ import SwiftUI
 import AppKit
 
 @main
-struct playlist_localizerApp: App {
+struct MusiCurrentApp: App {
     @NSApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
     
     var body: some Scene {

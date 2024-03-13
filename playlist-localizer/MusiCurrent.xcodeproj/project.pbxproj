@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AF477B532B929C7200C013D8 /* playlist_localizerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF477B522B929C7200C013D8 /* playlist_localizerApp.swift */; };
+		AF477B532B929C7200C013D8 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF477B522B929C7200C013D8 /* App.swift */; };
 		AF477B552B929C7200C013D8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF477B542B929C7200C013D8 /* ContentView.swift */; };
 		AF477B572B929C7400C013D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF477B562B929C7400C013D8 /* Assets.xcassets */; };
 		AF477B5B2B929C7400C013D8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF477B5A2B929C7400C013D8 /* Preview Assets.xcassets */; };
-		AF477B652B929C7400C013D8 /* playlist_localizerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF477B642B929C7400C013D8 /* playlist_localizerTests.swift */; };
-		AF477B6F2B929C7400C013D8 /* playlist_localizerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF477B6E2B929C7400C013D8 /* playlist_localizerUITests.swift */; };
-		AF477B712B929C7400C013D8 /* playlist_localizerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF477B702B929C7400C013D8 /* playlist_localizerUITestsLaunchTests.swift */; };
+		AF477B652B929C7400C013D8 /* musiCurrentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF477B642B929C7400C013D8 /* musiCurrentTests.swift */; };
+		AF477B6F2B929C7400C013D8 /* MusiCurrentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF477B6E2B929C7400C013D8 /* MusiCurrentUITests.swift */; };
+		AF477B712B929C7400C013D8 /* MusiCurrentUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF477B702B929C7400C013D8 /* MusiCurrentUITestsLaunchTests.swift */; };
 		AF477B7F2B929CA200C013D8 /* PythonKit in Frameworks */ = {isa = PBXBuildFile; productRef = AF477B7E2B929CA200C013D8 /* PythonKit */; };
 		AFCCFE2F2B97EC6D00733589 /* converter.py in Resources */ = {isa = PBXBuildFile; fileRef = AFCCFE2E2B97EC6D00733589 /* converter.py */; };
 		AFCCFE312B97EFEC00733589 /* Runner.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCCFE302B97EFEC00733589 /* Runner.swift */; };
@@ -37,17 +37,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		AF477B4F2B929C7200C013D8 /* playlist-localizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "playlist-localizer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AF477B522B929C7200C013D8 /* playlist_localizerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = playlist_localizerApp.swift; sourceTree = "<group>"; };
+		AF477B4F2B929C7200C013D8 /* MusiCurrent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusiCurrent.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF477B522B929C7200C013D8 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
 		AF477B542B929C7200C013D8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AF477B562B929C7400C013D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		AF477B582B929C7400C013D8 /* playlist_localizer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = playlist_localizer.entitlements; sourceTree = "<group>"; };
+		AF477B582B929C7400C013D8 /* MusiCurrent.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MusiCurrent.entitlements; sourceTree = "<group>"; };
 		AF477B5A2B929C7400C013D8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		AF477B602B929C7400C013D8 /* playlist-localizerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "playlist-localizerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AF477B642B929C7400C013D8 /* playlist_localizerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = playlist_localizerTests.swift; sourceTree = "<group>"; };
-		AF477B6A2B929C7400C013D8 /* playlist-localizerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "playlist-localizerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AF477B6E2B929C7400C013D8 /* playlist_localizerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = playlist_localizerUITests.swift; sourceTree = "<group>"; };
-		AF477B702B929C7400C013D8 /* playlist_localizerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = playlist_localizerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AF477B602B929C7400C013D8 /* MusiCurrentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusiCurrentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF477B642B929C7400C013D8 /* musiCurrentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = musiCurrentTests.swift; sourceTree = "<group>"; };
+		AF477B6A2B929C7400C013D8 /* MusiCurrentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusiCurrentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF477B6E2B929C7400C013D8 /* MusiCurrentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusiCurrentUITests.swift; sourceTree = "<group>"; };
+		AF477B702B929C7400C013D8 /* MusiCurrentUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusiCurrentUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		AFCCFE2E2B97EC6D00733589 /* converter.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = converter.py; sourceTree = "<group>"; };
 		AFCCFE302B97EFEC00733589 /* Runner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Runner.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -81,9 +81,9 @@
 		AF477B462B929C7200C013D8 = {
 			isa = PBXGroup;
 			children = (
-				AF477B512B929C7200C013D8 /* playlist-localizer */,
-				AF477B632B929C7400C013D8 /* playlist-localizerTests */,
-				AF477B6D2B929C7400C013D8 /* playlist-localizerUITests */,
+				AF477B512B929C7200C013D8 /* MusiCurrent */,
+				AF477B632B929C7400C013D8 /* MusiCurrentTests */,
+				AF477B6D2B929C7400C013D8 /* MusiCurrentUITests */,
 				AF477B502B929C7200C013D8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -91,25 +91,25 @@
 		AF477B502B929C7200C013D8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AF477B4F2B929C7200C013D8 /* playlist-localizer.app */,
-				AF477B602B929C7400C013D8 /* playlist-localizerTests.xctest */,
-				AF477B6A2B929C7400C013D8 /* playlist-localizerUITests.xctest */,
+				AF477B4F2B929C7200C013D8 /* MusiCurrent.app */,
+				AF477B602B929C7400C013D8 /* MusiCurrentTests.xctest */,
+				AF477B6A2B929C7400C013D8 /* MusiCurrentUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AF477B512B929C7200C013D8 /* playlist-localizer */ = {
+		AF477B512B929C7200C013D8 /* MusiCurrent */ = {
 			isa = PBXGroup;
 			children = (
-				AF477B522B929C7200C013D8 /* playlist_localizerApp.swift */,
+				AF477B522B929C7200C013D8 /* App.swift */,
 				AF477B542B929C7200C013D8 /* ContentView.swift */,
 				AF477B562B929C7400C013D8 /* Assets.xcassets */,
-				AF477B582B929C7400C013D8 /* playlist_localizer.entitlements */,
+				AF477B582B929C7400C013D8 /* MusiCurrent.entitlements */,
 				AF477B592B929C7400C013D8 /* Preview Content */,
 				AFCCFE2E2B97EC6D00733589 /* converter.py */,
 				AFCCFE302B97EFEC00733589 /* Runner.swift */,
 			);
-			path = "playlist-localizer";
+			path = MusiCurrent;
 			sourceTree = "<group>";
 		};
 		AF477B592B929C7400C013D8 /* Preview Content */ = {
@@ -120,29 +120,29 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		AF477B632B929C7400C013D8 /* playlist-localizerTests */ = {
+		AF477B632B929C7400C013D8 /* MusiCurrentTests */ = {
 			isa = PBXGroup;
 			children = (
-				AF477B642B929C7400C013D8 /* playlist_localizerTests.swift */,
+				AF477B642B929C7400C013D8 /* musiCurrentTests.swift */,
 			);
-			path = "playlist-localizerTests";
+			path = MusiCurrentTests;
 			sourceTree = "<group>";
 		};
-		AF477B6D2B929C7400C013D8 /* playlist-localizerUITests */ = {
+		AF477B6D2B929C7400C013D8 /* MusiCurrentUITests */ = {
 			isa = PBXGroup;
 			children = (
-				AF477B6E2B929C7400C013D8 /* playlist_localizerUITests.swift */,
-				AF477B702B929C7400C013D8 /* playlist_localizerUITestsLaunchTests.swift */,
+				AF477B6E2B929C7400C013D8 /* MusiCurrentUITests.swift */,
+				AF477B702B929C7400C013D8 /* MusiCurrentUITestsLaunchTests.swift */,
 			);
-			path = "playlist-localizerUITests";
+			path = MusiCurrentUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AF477B4E2B929C7200C013D8 /* playlist-localizer */ = {
+		AF477B4E2B929C7200C013D8 /* MusiCurrent */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AF477B742B929C7400C013D8 /* Build configuration list for PBXNativeTarget "playlist-localizer" */;
+			buildConfigurationList = AF477B742B929C7400C013D8 /* Build configuration list for PBXNativeTarget "MusiCurrent" */;
 			buildPhases = (
 				AF477B4B2B929C7200C013D8 /* Sources */,
 				AF477B4C2B929C7200C013D8 /* Frameworks */,
@@ -152,17 +152,17 @@
 			);
 			dependencies = (
 			);
-			name = "playlist-localizer";
+			name = MusiCurrent;
 			packageProductDependencies = (
 				AF477B7E2B929CA200C013D8 /* PythonKit */,
 			);
 			productName = "playlist-localizer";
-			productReference = AF477B4F2B929C7200C013D8 /* playlist-localizer.app */;
+			productReference = AF477B4F2B929C7200C013D8 /* MusiCurrent.app */;
 			productType = "com.apple.product-type.application";
 		};
-		AF477B5F2B929C7400C013D8 /* playlist-localizerTests */ = {
+		AF477B5F2B929C7400C013D8 /* MusiCurrentTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AF477B772B929C7400C013D8 /* Build configuration list for PBXNativeTarget "playlist-localizerTests" */;
+			buildConfigurationList = AF477B772B929C7400C013D8 /* Build configuration list for PBXNativeTarget "MusiCurrentTests" */;
 			buildPhases = (
 				AF477B5C2B929C7400C013D8 /* Sources */,
 				AF477B5D2B929C7400C013D8 /* Frameworks */,
@@ -173,14 +173,14 @@
 			dependencies = (
 				AF477B622B929C7400C013D8 /* PBXTargetDependency */,
 			);
-			name = "playlist-localizerTests";
+			name = MusiCurrentTests;
 			productName = "playlist-localizerTests";
-			productReference = AF477B602B929C7400C013D8 /* playlist-localizerTests.xctest */;
+			productReference = AF477B602B929C7400C013D8 /* MusiCurrentTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		AF477B692B929C7400C013D8 /* playlist-localizerUITests */ = {
+		AF477B692B929C7400C013D8 /* MusiCurrentUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AF477B7A2B929C7400C013D8 /* Build configuration list for PBXNativeTarget "playlist-localizerUITests" */;
+			buildConfigurationList = AF477B7A2B929C7400C013D8 /* Build configuration list for PBXNativeTarget "MusiCurrentUITests" */;
 			buildPhases = (
 				AF477B662B929C7400C013D8 /* Sources */,
 				AF477B672B929C7400C013D8 /* Frameworks */,
@@ -191,9 +191,9 @@
 			dependencies = (
 				AF477B6C2B929C7400C013D8 /* PBXTargetDependency */,
 			);
-			name = "playlist-localizerUITests";
+			name = MusiCurrentUITests;
 			productName = "playlist-localizerUITests";
-			productReference = AF477B6A2B929C7400C013D8 /* playlist-localizerUITests.xctest */;
+			productReference = AF477B6A2B929C7400C013D8 /* MusiCurrentUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -219,7 +219,7 @@
 					};
 				};
 			};
-			buildConfigurationList = AF477B4A2B929C7200C013D8 /* Build configuration list for PBXProject "playlist-localizer" */;
+			buildConfigurationList = AF477B4A2B929C7200C013D8 /* Build configuration list for PBXProject "MusiCurrent" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -235,9 +235,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AF477B4E2B929C7200C013D8 /* playlist-localizer */,
-				AF477B5F2B929C7400C013D8 /* playlist-localizerTests */,
-				AF477B692B929C7400C013D8 /* playlist-localizerUITests */,
+				AF477B4E2B929C7200C013D8 /* MusiCurrent */,
+				AF477B5F2B929C7400C013D8 /* MusiCurrentTests */,
+				AF477B692B929C7400C013D8 /* MusiCurrentUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -276,7 +276,7 @@
 			files = (
 				AFCCFE312B97EFEC00733589 /* Runner.swift in Sources */,
 				AF477B552B929C7200C013D8 /* ContentView.swift in Sources */,
-				AF477B532B929C7200C013D8 /* playlist_localizerApp.swift in Sources */,
+				AF477B532B929C7200C013D8 /* App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,7 +284,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF477B652B929C7400C013D8 /* playlist_localizerTests.swift in Sources */,
+				AF477B652B929C7400C013D8 /* musiCurrentTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,8 +292,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF477B712B929C7400C013D8 /* playlist_localizerUITestsLaunchTests.swift in Sources */,
-				AF477B6F2B929C7400C013D8 /* playlist_localizerUITests.swift in Sources */,
+				AF477B712B929C7400C013D8 /* MusiCurrentUITestsLaunchTests.swift in Sources */,
+				AF477B6F2B929C7400C013D8 /* MusiCurrentUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,12 +302,12 @@
 /* Begin PBXTargetDependency section */
 		AF477B622B929C7400C013D8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = AF477B4E2B929C7200C013D8 /* playlist-localizer */;
+			target = AF477B4E2B929C7200C013D8 /* MusiCurrent */;
 			targetProxy = AF477B612B929C7400C013D8 /* PBXContainerItemProxy */;
 		};
 		AF477B6C2B929C7400C013D8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = AF477B4E2B929C7200C013D8 /* playlist-localizer */;
+			target = AF477B4E2B929C7200C013D8 /* MusiCurrent */;
 			targetProxy = AF477B6B2B929C7400C013D8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -427,10 +427,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "playlist-localizer/playlist_localizer.entitlements";
+				CODE_SIGN_ENTITLEMENTS = MusiCurrent/MusiCurrent.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"playlist-localizer/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"MusiCurrent/Preview Content\"";
 				DEVELOPMENT_TEAM = T4FSA2B9WN;
 				ENABLE_HARDENED_RUNTIME = YES;
 				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
@@ -451,7 +451,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Pods.playlist-localizer";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Pods.MusiCurrent;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = macosx;
@@ -467,10 +467,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "playlist-localizer/playlist_localizer.entitlements";
+				CODE_SIGN_ENTITLEMENTS = MusiCurrent/MusiCurrent.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"playlist-localizer/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"MusiCurrent/Preview Content\"";
 				DEVELOPMENT_TEAM = T4FSA2B9WN;
 				ENABLE_HARDENED_RUNTIME = YES;
 				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
@@ -491,7 +491,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Pods.playlist-localizer";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Pods.MusiCurrent;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = macosx;
@@ -521,7 +521,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/playlist-localizer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/playlist-localizer";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MusiCurrent.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MusiCurrent";
 			};
 			name = Debug;
 		};
@@ -544,7 +544,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/playlist-localizer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/playlist-localizer";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MusiCurrent.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MusiCurrent";
 			};
 			name = Release;
 		};
@@ -595,7 +595,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AF477B4A2B929C7200C013D8 /* Build configuration list for PBXProject "playlist-localizer" */ = {
+		AF477B4A2B929C7200C013D8 /* Build configuration list for PBXProject "MusiCurrent" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AF477B722B929C7400C013D8 /* Debug */,
@@ -604,7 +604,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AF477B742B929C7400C013D8 /* Build configuration list for PBXNativeTarget "playlist-localizer" */ = {
+		AF477B742B929C7400C013D8 /* Build configuration list for PBXNativeTarget "MusiCurrent" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AF477B752B929C7400C013D8 /* Debug */,
@@ -613,7 +613,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AF477B772B929C7400C013D8 /* Build configuration list for PBXNativeTarget "playlist-localizerTests" */ = {
+		AF477B772B929C7400C013D8 /* Build configuration list for PBXNativeTarget "MusiCurrentTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AF477B782B929C7400C013D8 /* Debug */,
@@ -622,7 +622,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AF477B7A2B929C7400C013D8 /* Build configuration list for PBXNativeTarget "playlist-localizerUITests" */ = {
+		AF477B7A2B929C7400C013D8 /* Build configuration list for PBXNativeTarget "MusiCurrentUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AF477B7B2B929C7400C013D8 /* Debug */,

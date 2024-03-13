@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "AF477B4E2B929C7200C013D8"
-               BuildableName = "playlist-localizer.app"
-               BlueprintName = "playlist-localizer"
-               ReferencedContainer = "container:playlist-localizer.xcodeproj">
+               BuildableName = "MusiCurrent.app"
+               BlueprintName = "MusiCurrent"
+               ReferencedContainer = "container:MusiCurrent.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,9 +34,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "AF477B5F2B929C7400C013D8"
-               BuildableName = "playlist-localizerTests.xctest"
-               BlueprintName = "playlist-localizerTests"
-               ReferencedContainer = "container:playlist-localizer.xcodeproj">
+               BuildableName = "MusiCurrentTests.xctest"
+               BlueprintName = "MusiCurrentTests"
+               ReferencedContainer = "container:MusiCurrent.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -45,9 +45,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "AF477B692B929C7400C013D8"
-               BuildableName = "playlist-localizerUITests.xctest"
-               BlueprintName = "playlist-localizerUITests"
-               ReferencedContainer = "container:playlist-localizer.xcodeproj">
+               BuildableName = "MusiCurrentUITests.xctest"
+               BlueprintName = "MusiCurrentUITests"
+               ReferencedContainer = "container:MusiCurrent.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -67,9 +67,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AF477B4E2B929C7200C013D8"
-            BuildableName = "playlist-localizer.app"
-            BlueprintName = "playlist-localizer"
-            ReferencedContainer = "container:playlist-localizer.xcodeproj">
+            BuildableName = "MusiCurrent.app"
+            BlueprintName = "MusiCurrent"
+            ReferencedContainer = "container:MusiCurrent.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <EnvironmentVariables>
@@ -96,9 +96,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AF477B4E2B929C7200C013D8"
-            BuildableName = "playlist-localizer.app"
-            BlueprintName = "playlist-localizer"
-            ReferencedContainer = "container:playlist-localizer.xcodeproj">
+            BuildableName = "MusiCurrent.app"
+            BlueprintName = "MusiCurrent"
+            ReferencedContainer = "container:MusiCurrent.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

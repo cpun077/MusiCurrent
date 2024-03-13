@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  playlist-localizer
+//  MusiCurrent
 //
 //  Created by Caden Pun on 3/1/24.
 //
