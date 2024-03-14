@@ -11,7 +11,7 @@
 		AF477B552B929C7200C013D8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF477B542B929C7200C013D8 /* ContentView.swift */; };
 		AF477B572B929C7400C013D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF477B562B929C7400C013D8 /* Assets.xcassets */; };
 		AF477B5B2B929C7400C013D8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF477B5A2B929C7400C013D8 /* Preview Assets.xcassets */; };
-		AF477B652B929C7400C013D8 /* musiCurrentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF477B642B929C7400C013D8 /* musiCurrentTests.swift */; };
+		AF477B652B929C7400C013D8 /* MusiCurrentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF477B642B929C7400C013D8 /* MusiCurrentTests.swift */; };
 		AF477B6F2B929C7400C013D8 /* MusiCurrentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF477B6E2B929C7400C013D8 /* MusiCurrentUITests.swift */; };
 		AF477B712B929C7400C013D8 /* MusiCurrentUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF477B702B929C7400C013D8 /* MusiCurrentUITestsLaunchTests.swift */; };
 		AF477B7F2B929CA200C013D8 /* PythonKit in Frameworks */ = {isa = PBXBuildFile; productRef = AF477B7E2B929CA200C013D8 /* PythonKit */; };
@@ -44,10 +44,11 @@
 		AF477B582B929C7400C013D8 /* MusiCurrent.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MusiCurrent.entitlements; sourceTree = "<group>"; };
 		AF477B5A2B929C7400C013D8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AF477B602B929C7400C013D8 /* MusiCurrentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusiCurrentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AF477B642B929C7400C013D8 /* musiCurrentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = musiCurrentTests.swift; sourceTree = "<group>"; };
+		AF477B642B929C7400C013D8 /* MusiCurrentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusiCurrentTests.swift; sourceTree = "<group>"; };
 		AF477B6A2B929C7400C013D8 /* MusiCurrentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusiCurrentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF477B6E2B929C7400C013D8 /* MusiCurrentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusiCurrentUITests.swift; sourceTree = "<group>"; };
 		AF477B702B929C7400C013D8 /* MusiCurrentUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusiCurrentUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AFABE2392BA2BE9D002BDCB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		AFCCFE2E2B97EC6D00733589 /* converter.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = converter.py; sourceTree = "<group>"; };
 		AFCCFE302B97EFEC00733589 /* Runner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Runner.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -101,6 +102,7 @@
 		AF477B512B929C7200C013D8 /* MusiCurrent */ = {
 			isa = PBXGroup;
 			children = (
+				AFABE2392BA2BE9D002BDCB4 /* Info.plist */,
 				AF477B522B929C7200C013D8 /* App.swift */,
 				AF477B542B929C7200C013D8 /* ContentView.swift */,
 				AF477B562B929C7400C013D8 /* Assets.xcassets */,
@@ -123,7 +125,7 @@
 		AF477B632B929C7400C013D8 /* MusiCurrentTests */ = {
 			isa = PBXGroup;
 			children = (
-				AF477B642B929C7400C013D8 /* musiCurrentTests.swift */,
+				AF477B642B929C7400C013D8 /* MusiCurrentTests.swift */,
 			);
 			path = MusiCurrentTests;
 			sourceTree = "<group>";
@@ -284,7 +286,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF477B652B929C7400C013D8 /* musiCurrentTests.swift in Sources */,
+				AF477B652B929C7400C013D8 /* MusiCurrentTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,6 +438,9 @@
 				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MusiCurrent/Info.plist;
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "Uploading songs to Apple Music library";
+				INFOPLIST_KEY_NSDocumentsFolderUsageDescription = "Downloading songs in your Downloads";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -476,6 +481,9 @@
 				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MusiCurrent/Info.plist;
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "Uploading songs to Apple Music library";
+				INFOPLIST_KEY_NSDocumentsFolderUsageDescription = "Downloading songs in your Downloads";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;

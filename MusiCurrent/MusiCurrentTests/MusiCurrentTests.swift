@@ -1,13 +1,13 @@
 //
-//  musiCurrentTests.swift
-//  musiCurrentTests
+//  MusiCurrentTests.swift
+//  MusiCurrentTests
 //
 //  Created by Caden Pun on 3/1/24.
 //
 
 import XCTest
 
-final class musiCurrent: XCTestCase {
+final class MusiCurrent: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
