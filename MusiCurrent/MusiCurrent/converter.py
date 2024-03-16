@@ -10,12 +10,17 @@ def processlink(url, dir):
         playlist = Playlist(url)
         for video in playlist.videos:
             getYTsong(video, dir)
+            
+    print("Completed processing")
 
 def getYTsong(video, dir):
-    audios = video.streams.filter(only_audio=True).order_by('abr').desc()
-    best = audios[0]
-    path = best.download(dir)
-    print("Downloaded: ", best, " at ", path)
+    try:
+        audios = video.streams.filter(only_audio=True).order_by('abr').desc()
+        best = audios[0]
+        path = best.download(dir)
+        print("Downloaded: ", best, " at ", path)
+    except Exception as e:
+        print("Download error", e)
 
     if (platform.system() == 'Darwin'):
         if (path.endswith(('.webm', '.ogg'))):
@@ -29,7 +34,7 @@ def getYTsong(video, dir):
                 print("File format converted to .m4a")
             except Exception as e:
                 print("Conversion error: ", e)
-                
+
         try:
             applescript = (
                 'tell application "Music" to add (POSIX file "' + path + '") as alias'
