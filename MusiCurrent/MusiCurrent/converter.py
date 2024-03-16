@@ -17,20 +17,22 @@ def getYTsong(video, dir):
     try:
         audios = video.streams.filter(only_audio=True).order_by('abr').desc()
         best = audios[0]
-        path = best.download(dir)
-        print("Downloaded: ", best, " at ", path)
+        filepath = best.download(dir).encode("UTF-8")
+        print("Downloaded: ", best)
     except Exception as e:
         print("Download error", e)
 
     if (platform.system() == 'Darwin'):
-        if (path.endswith(('.webm', '.ogg'))):
+        filepath = filepath.decode("UTF-8")
+        base, extension = os.path.splitext(filepath)
+        if (extension.endswith(('.webm', '.ogg'))):
             try:
-                song = AudioFileClip(path)
-                newpath = os.path.splitext(path)[0] + '.m4a'
+                song = AudioFileClip(filepath)
+                newpath = (base + '.m4a').encode("UTF-8")
                 song.write_audiofile(newpath, codec='aac')
-                os.remove(path)
+                os.remove(filepath)
                 song.close()
-                path = newpath
+                filepath = newpath
                 print("File format converted to .m4a")
             except Exception as e:
                 print("Conversion error: ", e)
