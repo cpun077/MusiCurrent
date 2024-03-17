@@ -11,10 +11,12 @@ def processlink(url, dir):
         for video in playlist.videos:
             getYTsong(video, dir)
             
-    print("Completed processing")
+    print("Completed Task.")
 
 def getYTsong(video, dir):
     try:
+        print("Thumbnail: ", video.thumbnail_url)
+        print("Metadata: ", video.metadata)
         audios = video.streams.filter(only_audio=True).order_by('abr').desc()
         best = audios[0]
         filepath = best.download(dir).encode("UTF-8")
@@ -39,7 +41,7 @@ def getYTsong(video, dir):
 
         try:
             applescript = (
-                'tell application "Music" to add (POSIX file "' + path + '") as alias'
+                'tell application "Music" to add (POSIX file "' + filepath.decode("UTF-8") + '") as alias'
             )
             subprocess.call(['osascript', '-e', applescript])
             print("AppleScript completed; song uploaded")
