@@ -48,11 +48,24 @@ struct ContentView: View {
         GeometryReader { geometry in
             VStack {
                 Spacer().frame(height: geometry.size.height / 7)
+                
                 Form {
-                    TextField(text: $viewModel.link) {
-                        Text("Link")
+                    HStack {
+                        TextField(text: $viewModel.link) {
+                            Text("Link")
+                        }
+                        Button(action: {
+//                            UIApplication.shared.open(DataBridge.getDocumentsDirectory(), options: [:], completionHandler: nil)
+                        }) {
+                            Text("Choose Folder")
+                                .frame(width: geometry.size.width / 10, height: geometry.size.height / 20)
+                                .foregroundColor(.white)
+                                .background(Color.gray)
+                        }
+                        .buttonStyle(PlainButtonStyle())
+                        .cornerRadius(8)
                     }
-                        .frame(width: geometry.size.width * 0.8)
+                    .frame(width: geometry.size.width * 0.8)
                     Text("Your link must be from a supported platform.")
                 }
                 .frame(maxWidth: .infinity)

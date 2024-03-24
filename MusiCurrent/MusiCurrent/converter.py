@@ -39,14 +39,14 @@ def getYTsong(video, dir):
             except Exception as e:
                 print("Conversion error: ", e)
 
-        try:
-            applescript = (
-                'tell application "Music" to add (POSIX file "' + filepath.decode("UTF-8") + '") as alias'
-            )
-            subprocess.call(['osascript', '-e', applescript])
-            print("AppleScript completed; song uploaded")
-        except subprocess.CalledProcessError as e:
-            print("Upload error: ", e)
+#        try:
+#            applescript = (
+#                'tell application "Music" to add (POSIX file "' + filepath.decode("UTF-8") + '") as alias'
+#            )
+#            subprocess.call(['osascript', '-e', applescript])
+#            print("AppleScript completed; song uploaded")
+#        except subprocess.CalledProcessError as e:
+#            print("Upload error: ", e)
     else:
         print("Skipped Apple Music upload; not on MacOS")
         
