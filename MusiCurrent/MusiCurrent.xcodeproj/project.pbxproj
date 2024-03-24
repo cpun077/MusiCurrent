@@ -15,6 +15,7 @@
 		AF477B6F2B929C7400C013D8 /* MusiCurrentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF477B6E2B929C7400C013D8 /* MusiCurrentUITests.swift */; };
 		AF477B712B929C7400C013D8 /* MusiCurrentUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF477B702B929C7400C013D8 /* MusiCurrentUITestsLaunchTests.swift */; };
 		AF477B7F2B929CA200C013D8 /* PythonKit in Frameworks */ = {isa = PBXBuildFile; productRef = AF477B7E2B929CA200C013D8 /* PythonKit */; };
+		AF9F9E332BB0DCC20059E7E9 /* FilePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9F9E322BB0DCC20059E7E9 /* FilePicker.swift */; };
 		AFCCFE2F2B97EC6D00733589 /* converter.py in Resources */ = {isa = PBXBuildFile; fileRef = AFCCFE2E2B97EC6D00733589 /* converter.py */; };
 		AFCCFE312B97EFEC00733589 /* Runner.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCCFE302B97EFEC00733589 /* Runner.swift */; };
 /* End PBXBuildFile section */
@@ -48,6 +49,7 @@
 		AF477B6A2B929C7400C013D8 /* MusiCurrentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusiCurrentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF477B6E2B929C7400C013D8 /* MusiCurrentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusiCurrentUITests.swift; sourceTree = "<group>"; };
 		AF477B702B929C7400C013D8 /* MusiCurrentUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusiCurrentUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AF9F9E322BB0DCC20059E7E9 /* FilePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilePicker.swift; sourceTree = "<group>"; };
 		AFABE2392BA2BE9D002BDCB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		AFCCFE2E2B97EC6D00733589 /* converter.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = converter.py; sourceTree = "<group>"; };
 		AFCCFE302B97EFEC00733589 /* Runner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Runner.swift; sourceTree = "<group>"; };
@@ -110,6 +112,7 @@
 				AF477B592B929C7400C013D8 /* Preview Content */,
 				AFCCFE2E2B97EC6D00733589 /* converter.py */,
 				AFCCFE302B97EFEC00733589 /* Runner.swift */,
+				AF9F9E322BB0DCC20059E7E9 /* FilePicker.swift */,
 			);
 			path = MusiCurrent;
 			sourceTree = "<group>";
@@ -277,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AFCCFE312B97EFEC00733589 /* Runner.swift in Sources */,
+				AF9F9E332BB0DCC20059E7E9 /* FilePicker.swift in Sources */,
 				AF477B552B929C7200C013D8 /* ContentView.swift in Sources */,
 				AF477B532B929C7200C013D8 /* App.swift in Sources */,
 			);

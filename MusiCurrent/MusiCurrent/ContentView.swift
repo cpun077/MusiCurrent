@@ -19,6 +19,8 @@ enum currentView {
 struct ContentView: View {
     @State var viewModel = FormViewModel()
     @State private var currentView : currentView = .root
+    @State private var selectedDir: URL? = FileManager.default.urls(for: .downloadsDirectory, in: .userDomainMask).first
+    let filepicker = FilePicker()
     
     var body: some View {
         VStack {
@@ -55,7 +57,12 @@ struct ContentView: View {
                             Text("Link")
                         }
                         Button(action: {
-//                            UIApplication.shared.open(DataBridge.getDocumentsDirectory(), options: [:], completionHandler: nil)
+                            filepicker.parent = self
+                            filepicker.openPanel { result in
+                                if let url = result {
+                                    selectedDir = url
+                                }
+                            }
                         }) {
                             Text("Choose Folder")
                                 .frame(width: geometry.size.width / 10, height: geometry.size.height / 20)
@@ -77,23 +84,14 @@ struct ContentView: View {
                     
                     DispatchQueue.main.asyncAfter(deadline: .now() + 0.3) {
                         let runner = Runner()
-                        if let downloads = FileManager.default.urls(for: .downloadsDirectory, in: .userDomainMask).first {
-                            let sfolder = downloads.appendingPathComponent("Sounds")
-                            if !FileManager.default.fileExists(atPath: sfolder.path) {
-                                do {
-                                    try FileManager.default.createDirectory(at: sfolder, withIntermediateDirectories: true)
-                                } catch {
-                                    print("Could not create a folder to dump files, using Downloads folder")
-                                    runner.runScript(url: viewModel.link, dir: downloads.path)
-                                }
-                            }
-                            runner.runScript(url: viewModel.link, dir: sfolder.path)
+                        if let valid = selectedDir?.path {
+                            runner.runScript(url: viewModel.link, dir: valid)
                         } else {
-                            print("Could not access Downloads folder")
+                            print("Could not access folder")
                         }
                     }
                 }) {
-                    Text("Submit")
+                    Text("Download")
                         .frame(width: geometry.size.width / 4, height: geometry.size.height / 12)
                         .foregroundColor(.white)
                         .background(Color.blue)

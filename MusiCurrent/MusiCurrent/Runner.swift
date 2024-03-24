@@ -9,7 +9,7 @@ import Foundation
 import PythonKit
 
 class Runner {
-    func runScript(url: String, dir: String) -> Void {
+    func runScript(url: String, dir: String) {
         let sys = Python.import("sys")
         let filename = "converter"
         let path = URL(fileURLWithPath: #file).deletingLastPathComponent().path
