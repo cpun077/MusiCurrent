@@ -4,7 +4,7 @@ import os, subprocess, platform
 
 def processlink(url, dir):
     print("Link: ", url, " Dir:", dir)
-    if "youtube.com/watch" in url:
+    if "youtube.com/watch" in url or "youtu.be/" in url:
         getYTsong(YouTube(url), dir)
     elif "youtube.com/playlist" in url:
         playlist = Playlist(url)
@@ -39,14 +39,14 @@ def getYTsong(video, dir):
             except Exception as e:
                 print("Conversion error: ", e)
 
-#        try:
-#            applescript = (
-#                'tell application "Music" to add (POSIX file "' + filepath.decode("UTF-8") + '") as alias'
-#            )
-#            subprocess.call(['osascript', '-e', applescript])
-#            print("AppleScript completed; song uploaded")
-#        except subprocess.CalledProcessError as e:
-#            print("Upload error: ", e)
+        try:
+            applescript = (
+                'tell application "Music" to add (POSIX file "' + filepath.decode("UTF-8") + '") as alias'
+            )
+            subprocess.call(['osascript', '-e', applescript])
+            print("AppleScript completed; song uploaded")
+        except subprocess.CalledProcessError as e:
+            print("Upload error: ", e)
     else:
         print("Skipped Apple Music upload; not on MacOS")
         
