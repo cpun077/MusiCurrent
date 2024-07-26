@@ -55,9 +55,9 @@ cipher.get_throttling_function_name = get_throttling_function_name
 
 def processlink(url, dir):
     print("Link: ", url, " Dir:", dir)
-    if "youtube.com/watch" in url or "youtu.be/" in url:
+    if "youtube.com/watch" in url or "youtu.be/" or "music.youtube.com/watch" in url:
         getYTsong(YouTube(url), dir)
-    elif "youtube.com/playlist" in url:
+    elif "youtube.com/playlist" or "music.youtube.com/playlist" in url:
         playlist = Playlist(url)
         for video in playlist.videos:
             getYTsong(video, dir)
