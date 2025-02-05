@@ -1,5 +1,5 @@
 from pytubefix import Playlist, YouTube
-from moviepy.editor import AudioFileClip
+from moviepy import AudioFileClip
 import os, subprocess, platform
 
 def processlink(url, dir):
@@ -29,7 +29,7 @@ def getYTsong(video, dir):
                 try:
                     song = AudioFileClip(filepath)
                     newpath = (base + '.m4a').encode("UTF-8")
-                    song.write_audiofile(newpath, codec='aac')
+                    song.write_audiofile(newpath, codec='aac', ffmpeg_params=["-b:a", "256k"])
                     os.remove(filepath)
                     song.close()
                     filepath = newpath
@@ -49,12 +49,14 @@ def getYTsong(video, dir):
             print("Skipped Apple Music upload; not on MacOS")
     except Exception as e:
         print("Download error", e)
-        
-#playlist = "https://music.youtube.com/playlist?list=PL4ckrlA4uj4tr28D-Dpn5QrrS0wxd2blM&si=Z_8eTkBKgvTQm-U3"
-#song = "https://music.youtube.com/watch?v=9B2EQe-fmh8&si=oMh1n90MIjGTEDA2"
-#processlink(
-#    playlist,
+
+# Isolated Script Testing
+#       
+# playlist = "https://music.youtube.com/playlist?list=PL4ckrlA4uj4tr28D-Dpn5QrrS0wxd2blM&si=Z_8eTkBKgvTQm-U3"
+# song = "https://music.youtube.com/watch?v=3hgabcFcp4A&si=I7q2iJy5doH5Mr7Z"
+# processlink(
+#    song,
 #    os.path.join(os.path.expanduser('~'), 'Downloads/Sounds')
-#)
+# )
         
 
