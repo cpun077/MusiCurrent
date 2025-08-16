@@ -60,8 +60,14 @@ def getYTsong(video, dir):
         print("Download error", e)
 
 def main():
-    link = input("Enter Song or Playlist URL:")
-    dir = input("Enter File Directory: ")
-    processlink(link, os.path.join(os.path.expanduser('~'), dir))
-        
+    quit = False
+    while not quit:
+        link = input("Enter Song or Playlist URL: ")
+        dir = input("Enter File Directory: ")
+        processlink(link, os.path.join(os.path.expanduser('~'), dir))
+        option = input("Enter q to quit: ")
+        if option == 'q':
+            quit = True
 
+if __name__ == "__main__":
+    main()
